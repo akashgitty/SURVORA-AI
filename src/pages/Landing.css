@@ -1,0 +1,5 @@
+.hero{text-align:center;padding:64px 8px 36px}.hero h1{font-size:clamp(34px,7vw,66px);line-height:1.05;font-weight:800}.hero p{color:var(--mu);max-width:600px;margin:14px auto 26px;font-size:17px}
+.eyebrow{display:inline-block;padding:5px 14px;border-radius:99px;border:1px solid var(--bd);background:var(--card);font-size:12px;font-weight:700;color:var(--ac);margin-bottom:18px}
+.steps{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));counter-reset:s}.step{position:relative;padding-top:26px}.step::before{counter-increment:s;content:counter(s);position:absolute;top:-12px;left:18px;width:28px;height:28px;border-radius:50%;background:var(--ac);color:var(--on);display:grid;place-items:center;font-weight:800;font-size:13px}
+.showcase{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:center}
+.band{text-align:center;padding:36px 18px;border-radius:28px;background:linear-gradient(135deg,var(--ac),var(--ac2));color:var(--on);margin-top:26px}.band h2{margin:0 0 8px}.band .btn{margin-top:14px}
